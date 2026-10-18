@@ -68,3 +68,8 @@
 nav {
     background-color: black
 }
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+}
