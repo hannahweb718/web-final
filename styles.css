@@ -64,3 +64,7 @@
   opacity: 1;
   pointer-events: all;
 }
+
+nav {
+    background-color: black
+}
