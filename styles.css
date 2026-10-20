@@ -80,7 +80,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    color: white;
 }
 
 .hero-right {
@@ -89,4 +88,9 @@ nav {
 
 body {
   background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
