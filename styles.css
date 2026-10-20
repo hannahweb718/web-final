@@ -91,7 +91,11 @@ body {
   color: white;
 }
 
-nav ul a {
+ul {
+  list-style-type: none;
+}
+
+nav a {
   text-decoration: none;
   list-style-type: none;
   color: white;
