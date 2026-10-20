@@ -80,10 +80,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-color: black;
     color: white;
 }
 
 .hero-right {
   padding-top: 100px;
+}
+
+main {
+  background-color: black;
 }
