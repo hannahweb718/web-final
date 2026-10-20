@@ -69,6 +69,13 @@ nav {
     background-color: black
 }
 
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
 .nav-right ul {
     display: flex;
     justify-content: space-between;
