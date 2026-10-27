@@ -175,13 +175,13 @@ html {
     margin-bottom: 0;
 }
 
-img .green-note {
+img .white-note {
   width: 29rem;
   height: 29rem;
   transition: transform 0.3s ease-in-out; 
 }
 
-img .green-note:hover {
+img .white-note:hover {
   transform: scale(1.3); 
 }
 
