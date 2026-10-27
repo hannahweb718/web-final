@@ -25,13 +25,13 @@
   font-weight: 700;
     font-size: 2rem;
     color: white;
-    background-color: none;
+    background-color: black;
     padding-left: 2.6rem;
     padding-right: 2.6rem;
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
     border-radius: 2rem; 
-   border: 1px solid white;
+   border: 2px solid white;
 
 }
 
