@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
 .modal {
   position: fixed;
   top: 50%;
@@ -64,6 +68,7 @@
   opacity: 1;
   pointer-events: all;
 }
+/*main css */
 
 nav {
     background-color: black
@@ -80,6 +85,15 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 509px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 6.3rem;
+  line-height: auto;
+  color: white;
 }
 
 .hero {
