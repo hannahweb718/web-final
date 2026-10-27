@@ -131,7 +131,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 6.3rem;
-  line-height: 3.3rem;
+  line-height: 4.3rem;
   color: white;
 }
 
@@ -145,8 +145,6 @@ html {
     justify-content: space-between;
     align-items: center;
     height: 92.2rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero p {
@@ -176,13 +174,13 @@ margin-left: 17.8rem;
 }
 
 .white-note {
-  width: 20%;
+  width: 25%;
   height: 20%;
   transition: transform 0.3s ease-in-out; 
 }
 
 .white-note:hover {
-  transform: scaleX(1.3); 
+  transform: scale(1.3); 
 }
 
 body {
