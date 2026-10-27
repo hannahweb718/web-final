@@ -167,6 +167,10 @@ html {
 .hero-right {
     background-image: url('images/bg-circle.png');
     background-repeat: no-repeat;
+    height: 92rem;
+    width: 92rem;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 body {
