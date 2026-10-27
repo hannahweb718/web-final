@@ -116,7 +116,7 @@ nav {
 
 .hero .hero-left a { 
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
     font-size: 2rem;
     color: white;
     background-color: none;
@@ -125,7 +125,7 @@ nav {
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
     border-radius: 2rem; 
-   border: 1px solid white;}
+   border: 2px solid white;}
 
 .nav-cta {
     font-family: "Montserrat", sans-serif;
