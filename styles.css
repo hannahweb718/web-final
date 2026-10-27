@@ -3,10 +3,8 @@
 *::before {
   box-sizing: border-box;
 }
-
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+
 
 .modal {
   position: fixed;
@@ -70,8 +68,18 @@
 }
 /*main css */
 
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
 nav {
-    background-color: black
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .nav-main {
@@ -84,32 +92,96 @@ nav {
 .nav-right ul {
     display: flex;
     justify-content: space-between;
-    width: 509px;
+    width: 50.9rem;
+     font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.hero .hero-left a { 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    background-color: none;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    border-radius: 2rem; 
+   border: 1px solid white;}
+
+.nav-cta {
+    font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+    background-color: none;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 2rem; 
+   border: 1px solid white;
+
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-size: 6.3rem;
-  line-height: auto;
+  line-height: 3.3rem;
   color: white;
 }
+
+html {
+    font-size: 62.5%;
+}
+
 
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 92.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero p {
+  width: 48.5rem;
 }
 
 .hero-right {
   padding-top: 100px;
 }
 
+.hero-left {
+  padding-top: 14.5rem;
+  padding-left: 17.8rem;
+  width: 80rem; 
+  height: 48rem;
+}
+
+.hero-right {
+    background-image: url('images/bg-circle.png');
+    background-repeat: no-repeat;
+    background-color: #1ED760;
+}
+
 body {
   background-color: black;
   color: white;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: auto;
 }
 
 ul {
