@@ -20,6 +20,21 @@
   max-width: 80%;
 }
 
+.modal-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    background-color: none;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    border-radius: 2rem; 
+   border: 1px solid white;
+
+}
+
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
@@ -151,12 +166,8 @@ html {
   width: 48.5rem;
 }
 
-.hero-right {
-  padding-top: 100px;
-}
-
 .hero-left {
-  padding-top: 14.5rem;
+ margin-top: 14.5rem;
 margin-left: 17.8rem;
   width: 90rem; 
   height: 48rem;
