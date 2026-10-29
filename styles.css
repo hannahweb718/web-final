@@ -147,6 +147,7 @@ nav {
 .nav-right ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 50.9rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -199,6 +200,7 @@ h1 {
   font-size: 6.3rem;
   line-height: 6rem;
   color: white;
+  width: 65rem;
 }
 
 html {
@@ -307,7 +309,6 @@ p {
   );
   background-size: 200% 200%;
   background-position: 0% 50%;
-  animation: gradientShift 3s ease infinite;
 }
 .popup-cta:hover {
   animation: gradientShift 3s ease infinite;
