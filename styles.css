@@ -3,8 +3,7 @@
 *::before {
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .modal {
   position: fixed;
@@ -15,24 +14,24 @@
   border: 1px solid black;
   border-radius: 10px;
   z-index: 10;
-  background-color: white;
-  width: 500px;
-  max-width: 80%;
+  background-color: black;
+  width: 97.5rem;
+  height: 68.8rem;
+  max-width: 90%;
 }
 
 .modal-button {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-    font-size: 2rem;
-    color: white;
-    background-color: black;
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
-    border-radius: 2rem; 
-   border: 2px solid white;
-
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  border-radius: 2rem;
+  border: 1px solid white;
 }
 
 .modal.active {
@@ -44,12 +43,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  margin-right: 7rem;
+  margin-left: 7rem;
 }
 
-.modal-header .title {
-  font-size: 1.25rem;
+.modal-body .title {
+  font-size: 5.5rem;
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
 }
 
 .modal-header .close-button {
@@ -57,12 +61,25 @@
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
+  font-size: 3rem;
   font-weight: bold;
+  color: white;
 }
 
 .modal-body {
   padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  width: 80%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #overlay {
@@ -91,58 +108,67 @@ body {
   width: 100%;
 }
 
+button {
+  margin-top: 3.6rem;
+}
+
 nav {
-    background-color: black;
-    margin-right: auto;
-    margin-left: auto;
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 17.8rem;
+  margin-left: 17.8rem;
 }
 
 .nav-right ul {
-    display: flex;
-    justify-content: space-between;
-    width: 50.9rem;
-     font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 50.9rem;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
   color: white;
 }
 
-.hero .hero-left a { 
+.main-cta {
+  margin-bottom: 10rem;
+}
+
+.hero .hero-left a {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-    font-size: 2rem;
-    color: white;
-    background-color: none;
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
-    border-radius: 2rem; 
-   border: 2px solid white;
-  margin-top: 5.6rem;
-  margin-bottom: 2.6rem;
+  font-size: 2rem;
+  color: white;
+  background-color: none;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  margin-bottom: 10rem;
 }
 
 .nav-cta {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-    font-size: 1.6rem;
-    color: white;
-    background-color: none;
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    border-radius: 2rem; 
-   border: 1px solid white;
-
+  font-size: 1.6rem;
+  color: white;
+  background-color: none;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid white;
 }
 
 h1 {
@@ -154,47 +180,73 @@ h1 {
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
-
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 92.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92.2rem;
 }
 
-.hero p {
+.hero-left p {
   width: 48.5rem;
+  margin-bottom: 6rem;
 }
 
 .hero-left {
- margin-top: 14.5rem;
-margin-left: 17.8rem;
-  width: 90rem; 
+  margin-left: 17.8rem;
+  width: 90rem;
   height: 48rem;
 }
 
 .hero-right {
-    background-image: url('images/bg-circle.png');
-    background-repeat: no-repeat;
-    height: 92rem;
-    width: 92rem;
-    padding-right: 0;
-    margin-right: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  background-image: url("images/bg-circle.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding-right: 0;
+  margin-right: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
 }
 
 .white-note {
-  width: 25%;
-  height: 20%;
-  transition: transform 0.3s ease-in-out; 
+  width: 30%;
+  position: absolute;
+  top: 10rem; /* Pushes the element 20px down from where it usually sits */
+  left: 15rem; /* Pushes the element 10px right from where it usually sits */
+  transition: transform 0.3s ease-in-out;
 }
 
 .white-note:hover {
-  transform: scale(1.3); 
+  transform: scale(1.3);
+}
+
+.black-note {
+  width: 50%;
+  position: absolute;
+  top: 50rem; /* Pushes the element 20px down from where it usually sits */
+  right: 3rem; /* Pushes the element 10px right from where it usually sits */
+  transition: transform 0.3s ease-in-out;
+}
+
+.black-note:hover {
+  transform: scale(1.3);
+}
+
+.green-note {
+  width: 50%;
+  position: absolute;
+  top: 37rem; /* Pushes the element 20px down from where it usually sits */
+  left: 1rem; /* Pushes the element 10px right from where it usually sits */
+  transition: transform 0.3s ease-in-out;
+}
+
+.green-note:hover {
+  transform: scale(1.3);
 }
 
 body {

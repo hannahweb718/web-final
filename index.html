@@ -6,54 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Modal</title>
     <link href="styles.css" rel="stylesheet" />
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <header><nav>
-      <div class="nav-main">
-        <div class="nav-left">
-            <img src="images/spotify-logo.png" alt="Spotify Logo"/>
-        </div>
-        <div class="nav-right">
+    <script defer src="script.js"></script>  <body>
+    <header>
+      <nav>
+        <div class="nav-main">
+          <div class="nav-left">
+            <img src="images/spotify-logo.png" alt="Spotify Logo" />
+          </div>
+          <div class="nav-right">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Premium</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Download</a></li>
-                <li class="nav-cta">
-                  <a href="#">Login</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Premium</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Download</a></li>
+              <li class="nav-cta">
+                <a href="#">Login</a>
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </nav></header>
+      </nav>
+    </header>
     <main>
       <div class="hero">
-    <div class="hero-left">
-    <h1>One App. <br>Music for Everyone.</h1>
-    <p>Claim your 1 month free trial of Spotify Premium, then keep your full access starting at just $12.99 a month.</p>
-  <a class="main-cta" href="#">Explore Free Plans</a>
-  <br>
-  <button class="modal-button" data-modal-target="#modal">Claim My Free Trial</button>
-    <div class="modal" id="modal">
-      <div class="modal-header">
-        <div class="title">Seems You’re New Here...</div>
-        <button data-close-button class="close-button">&times;</button>
+        <div class="hero-left">
+          <h1>One App. <br />Music for Everyone.</h1>
+          <p>
+            Claim your 1 month free trial of Spotify Premium, then keep your
+            full access starting at just $12.99 a month.
+          </p>
+          <a class="main-cta" href="#">Explore Free Plans</a>
+          <br />
+          <button class="modal-button" data-modal-target="#modal">
+            Claim My Free Trial
+          </button>
+          <div class="modal" id="modal">
+          <div class="modal-image"></div>
+            <div class="modal-header">
+              <div class="modal-image">
+              <img src="images/spotify-circle.png" alt="spotify logo." /></div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="title">Seems You’re New Here...</div>
+              <p>Have we got a deal just for you! Claim your free 30 day trial and
+              then a reduced rate of $9.99 per month for your first year.</p>
+              <a class="popup-cta" href="#">Claim My Free Trial</a> </br>
+              <a class="no-thanks" href="#">No Thanks</a>
+            </div>
+          </div>
+          <div id="overlay"></div>
+        </div>
+        <div class="hero-right">
+          <img
+            class="white-note"
+            src="images/white-note.png"
+            alt="white music note"
+          />
+          <img class="green-note" src="images/green-note.png" alt="green music note" />
+          <img class="black-note" src="images/black-note.png" alt="black music note" />
+        </div>
       </div>
-      <div class="modal-body">
-        <img src="images/spotify-circle.png" alt="spotify logo."/>
-    Have we got a deal just for you! Claim your free 30 day trial and then a reduced rate of $9.99 per month for your first year.
-      <a class="popup-cta" href="#">Claim My Free Trial</a>
-      <a class="no-thanks" href="#">No Thanks</a>
-</div>
-    </div>
-    <div id="overlay"></div>
-</div>
-<div class="hero-right">
-  <img class="white-note" src="images/white-note.png" alt="white music note"/>
-   <img src="images/green-note.png" alt="green music note"/>
-    <img src="images/black-note.png" alt="black music note"/>
-</div>
-</div>
     </main>
   </body>
-  </html>
+</html>
